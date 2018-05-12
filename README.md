@@ -32,7 +32,7 @@
 
 ### 1.XSS 防范
  XSS 防范：
-* 展示在文章详情页的文章内容（富文本），需要使用白名单的方式 (使用工具库 [js-xss](https://github.com/leizongmin/js-xss)) 设置合法的标签和属性：
+* 展示在文章详情页的文章内容（富文本），使用白名单的方式 (使用工具库 [js-xss](https://github.com/leizongmin/js-xss)) 设置合法的标签和属性：
   * 白名单标签： `p`、`a`、`img`、`h1`、`h2`、`h3`、`ul`、`li`
   * 白名单属性：`src`、`href`、`alt`、`title`
 * 展示在文章列表页的文章简介去除富文本内容的标签字符使其变成纯文本
